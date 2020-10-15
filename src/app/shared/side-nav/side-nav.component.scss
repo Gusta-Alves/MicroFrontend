@@ -1,0 +1,19 @@
+$mobile: "(max-width: 767px)"; 
+$tablet: "(max-width: 1200px)";
+$iphone4: "(max-height: 530px)"; 
+$iphone5: "(max-height: 630px)";
+$iphoneX: "(min-height: 800px)";
+
+.container-side{
+    // background-color: yellowgreen;
+    height: 100vh;
+    position: fixed;
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    button{
+        margin: 8px 8px 8px 0;
+    }
+}
